@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/Purple\ Paradise.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.output {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 3px solid slateblue; */
+    margin-top: 30px;
+    margin-left: 450px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 380px; */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.userPhoto {
+    border-radius: 50%;
+    border: 3px solid skyblue;
+    /* text-align: center; */
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 550px;
+    height: fit-content;
+    border: 2px solid palevioletred;
+}
+
+.textBox {
+    display: flex;
+    margin: 10px 0;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.firstName {
+    margin: 0 8px;
+}
+
+.contactsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.newUsers, .maleUsers, .femaleUsers {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid palevioletred;
+    font-size: 17px;
+    margin-right: 15px;
+    /* background-color: antiquewhite; */
+}
+
+.newUsers:hover, .maleUsers:hover, .femaleUsers:hover {
+    cursor: pointer;
+}
+
+.btnHolder, .inputHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.inputHolder input {
+    padding: 6px 20px;
+}
