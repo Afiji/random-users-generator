@@ -43,7 +43,7 @@ inputCountUsers.addEventListener('change', () => {
 })
 
 const getRandomUsers = async (number = 20) => {
-    const request = await fetch(`https://randomuser.me/api/?results=${number}`)
+    const request = await fetch(`https://randomuser.me/api/?results=${number? number : 20}`)
     const response = await request.json()
     usersData = response.results
     renderData(usersData)
